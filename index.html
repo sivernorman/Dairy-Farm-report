@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dairy Farm Project</title>
+  </head>
+  <body>
+      <div class="section">
+        <img src="images/xx.jpg" height="420" width="495">  
+        <img src="images/heat-in-dairy-cows.jpg" height="420" width="495">
+        <img src="images/Cow_female_black_white.jpg" height="420" width="495">
+
+      </div>
+      <div class="main">
+        <div class="heading">
+            <h1><strong>SILVER DAIRY PRODUCTION REPORT</strong></h1>
+        </div>
+      <div class="title">
+        <h1><u>Enter milk amount(Litres)</u></h1>
+      </div>
+      <div class="contact-form">
+        <div class="input-fields">
+          <input type="text" class="input" placeholder="Shade A" id="shade_a" name="shade_a" >
+          <input type="text" class="input" placeholder="Shade B" id="shade_b" name="shade_b">
+          <input type="text" class="input" placeholder="Shade C" id="shade_c" name="shade_c">
+          <input type="text" class="input" placeholder="Shade D" id="shade_d" name="shade_d">
+          <input class="btn" type="button" value="View Report" onclick="totalProduction()">
+          <input class="btn" type="button" value="Refresh" onclick="reset()">
+        </div> 
+      </div>
+    </div> 
+    <div class="output" >
+        <div class="title">
+          <h1>Daily milk production in litres.</h1>
+        </div>
+        <div class="production-area">
+            <div id="results">
+            </div>
+            <div id="totals">
+            </div> 
+        </div>   
+    </div>
+    <div class="overTime" >
+      <div class="title">
+        <h1>Income Report Per Period</h1>
+      </div>
+      <div class="production-area">
+          <div id="display_incomeOverTime_weekly">
+
+          </div>
+          <div id="display_incomeOverTime_yearly">
+        
+          </div>
+      </div>
+    </div>
+    <div class="leapYearReport" >
+      <div class="title">
+        <h1>Leap Year Report</h1>
+      </div>
+      <div class="production-area">
+          <div id="display_">
+            <div id="leapyear"></div>
+
+          </div>
+          <div id="display_">
+        
+          </div>
+      </div>
+    </div>
+      <div class="production-area">
+          <div id="display_">
+
+          </div>
+          <div id="display_">
+        
+          </div>
+      </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>

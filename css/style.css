@@ -1,0 +1,141 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 780px;
+  box-sizing: border-box;
+  border: 5px solid white;
+  box-shadow: 2px 2px 20px rgb(146, 196, 236);
+}
+.main {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  height:700px ;
+  width: 100%;
+  background-color: rgb(146, 196, 236);
+  max-width: 740px;
+  background-size: cover;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.main .title h1, .heading h1{
+  color: black;
+  text-align: center;
+  margin-bottom: 25px;
+}
+h1{
+  color:black;
+  font: 2em  sans-serif;
+}
+.contact-form{
+  display: flex;
+}
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields{
+  width: 100%;
+}
+
+.input{
+  margin: 20px 0;
+  background: transparent;
+  border: 0px;
+  text-align: start;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  color: black;
+  width: 100%;
+}
+.btn{
+  margin: 3%;
+  width: 10rem;
+  height: 2rem;
+  display: inline;
+  background-color: darkblue;
+  color: white;
+}
+.output{
+  position: absolute;
+  top: 620px;
+  left: 0%;
+  width: 100%;
+  max-width: 740px;
+  background: rgb(146, 196, 236);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.output .title h1{
+  color: black;
+  text-align: start;
+  margin-bottom: 25px;
+}
+
+.overTime{
+  position: absolute;
+    top:840px;
+    left: 0%;
+    width: 100%;
+    max-width: 740px;
+    background: rgb(146, 196, 236);
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    
+}
+.overTime .title h1{
+  color: black;
+  text-align: start;
+  margin-bottom: 25px;
+}
+
+.input-income{
+  margin: 20px 0;
+    background: transparent;
+    border: 0px;
+    text-align: start;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: white;
+    width: 100%;
+  }
+.leapYearReport {
+  position: absolute;
+  top: 1000px;
+  left: 0%;
+  width: 100%;
+  max-width: 740px;
+  background: rgb(146, 196, 236);
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.leapYearReport .title h1{
+  color: black;
+  text-align: start;
+  margin-bottom: 25px;
+}
+
+.input-leap{
+  margin: 20px 0;
+    background: transparent;
+    border: 0px;
+    text-align: start;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
